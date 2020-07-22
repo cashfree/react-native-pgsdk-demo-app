@@ -15,9 +15,8 @@
     "axios": "^0.19.2",
     "react": "16.13.1",
     "react-native": "0.63.1",
-    "react-native-native-toast-library": "^1.0.0",
     "react-native-navigation-bar": "^0.2.1",
-    "react-native-pg-react-native-sdk": "git+ssh://git@bitbucket.org/rohitmethi/pgreactnativesdk.git"
+    "react-native-pg-react-native-sdk": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.10.5",

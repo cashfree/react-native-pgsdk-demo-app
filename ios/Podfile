@@ -9,6 +9,8 @@ target 'DemoAppNew' do
   use_react_native!(:path => config["reactNativePath"])
 
 
+  pod 'RNPgReactNativeSdk', :path => '../node_modules/react-native-pg-react-native-sdk'
+
   target 'DemoAppNewTests' do
     inherit! :complete
     # Pods for testing
