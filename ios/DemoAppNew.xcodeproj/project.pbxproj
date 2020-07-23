@@ -711,7 +711,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "/Users/rohit/DemoAppNew/node_modules/react-native-pg-react-native-sdk/ios";
+				FRAMEWORK_SEARCH_PATHS = "/Users/rohit/reactnative_pg_sdk_demo_app/node_modules/react-native-pg-react-native-sdk/ios";
 				INFOPLIST_FILE = DemoAppNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -734,7 +734,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "/Users/rohit/DemoAppNew/node_modules/react-native-pg-react-native-sdk/ios";
+				FRAMEWORK_SEARCH_PATHS = "/Users/rohit/reactnative_pg_sdk_demo_app/node_modules/react-native-pg-react-native-sdk/ios";
 				INFOPLIST_FILE = DemoAppNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
