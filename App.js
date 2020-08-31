@@ -32,22 +32,23 @@ export default class App extends Component {
 });
 
 
-     console.log("inside fetch");
+    console.log("CF::SDK::",testUrl);
+    console.log("CF::SDK::",JSON.stringify(options));
     const options = {
         headers: {
                  Accept: 'application/json',
                   'Content-Type': 'application/json',
-                 'x-client-id':'1848d0ce8441fb8ffa258bc98481',
-                 'x-client-secret': '62f1476aee1c57c7bef6259e104f9a868b068ed6'
+                 'x-client-id':'1831dac3fd47d13be98b7fd11381',
+                 'x-client-secret': '4c41ca2022d1fa588efa91b73af7bb3489421735'
                          }
    };
    var orderIdValue = "Order" + Math.floor(Math.random() * 100000) + 1;
-   axios.post(prodUrl, {orderId: orderIdValue,
+   axios.post(testUrl, {orderId: orderIdValue,
                                      orderAmount : 1,
                                      orderCurrency :'INR' }, options)
    .then(response => {
          if (response.data.status) {
-           console.log(response.data.cftoken);
+           console.log("CF::SDK::",response.data.cftoken);
     /*       var map ={"appId":"1831dac3fd47d13be98b7fd11381",
                                    "orderId":orderIdValue,
                                    "orderAmount":"1",
@@ -75,7 +76,7 @@ export default class App extends Component {
               console.log(response);
               }
               else if(mode=='WEB') {
-             var mapNew ={"appId":"1848d0ce8441fb8ffa258bc98481",
+             var mapNew ={"appId":"1831dac3fd47d13be98b7fd11381",
                                    "orderId":orderIdValue,
                                    "orderAmount":"1",
                                    "orderNote":"Cashfree Test",
@@ -87,15 +88,10 @@ export default class App extends Component {
                                       "tokenData":response.data.cftoken
                                }
 
-                  RNPgReactNativeSDK.startPaymentWEB(mapNew,'PROD',(someData) => {
-                           console.log(someData);
-                            });
+             RNPgReactNativeSDK.startPaymentWEB(mapNew,'Test',(someData) => {
+                                          console.log("FROM React_Native",someData);
+                                        });
                console.log(response);
-              }
-              else {
-                RNPgReactNativeSDK.addEvent(
-                  );
-                console.log(response);
               }
        }}).catch(error => {console.log(error)});
       
