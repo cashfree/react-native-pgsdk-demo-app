@@ -16,7 +16,7 @@
     "react": "16.13.1",
     "react-native": "0.63.1",
     "react-native-navigation-bar": "^0.2.1",
-    "react-native-pg-react-native-sdk": "^1.0.1"
+    "react-native-pg-react-native-sdk": "^1.0.8"
   },
   "devDependencies": {
     "@babel/core": "7.10.5",

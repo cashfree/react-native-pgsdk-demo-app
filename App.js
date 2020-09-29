@@ -85,6 +85,7 @@ export default class App extends Component {
                                     "customerEmail":"arjun@cashfree.com",
                                      "notifyUrl":"https://www.yourendpoint.com/",
                                       "orderCurrency":"INR",
+                            
                                       "tokenData":response.data.cftoken
                                }
 

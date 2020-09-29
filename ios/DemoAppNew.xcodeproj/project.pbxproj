@@ -20,9 +20,7 @@
 		D23ED456C5C7595FF8C41504 /* libPods-DemoAppNew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D104C952CA032357C2ACA69 /* libPods-DemoAppNew.a */; };
 		DA0B6204C8D813B10B81DA24 /* libPods-DemoAppNew-DemoAppNewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59E7065C385B336277B5315 /* libPods-DemoAppNew-DemoAppNewTests.a */; };
 		EBE49DB5BFF7BF9EE9E4A086 /* libPods-DemoAppNew-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A993E801F53E4FF8D1F04748 /* libPods-DemoAppNew-tvOSTests.a */; };
-		F94CB55E24C6D98900C614C1 /* CFSDK_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94CB55D24C6D98900C614C1 /* CFSDK_ObjC.framework */; };
-		F94CB55F24C6D98900C614C1 /* CFSDK_ObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F94CB55D24C6D98900C614C1 /* CFSDK_ObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F94CB59B24C842C500C614C1 /* libRNPgReactNativeSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94CB59A24C842AF00C614C1 /* libRNPgReactNativeSdk.a */; };
+		F976A8A4252338D400FCC7C8 /* libRNPgReactNativeSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F976A8A3252338BA00FCC7C8 /* libRNPgReactNativeSdk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,28 +38,14 @@
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "DemoAppNew-tvOS";
 		};
-		F94CB59924C842AF00C614C1 /* PBXContainerItemProxy */ = {
+		F976A8A2252338BA00FCC7C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F94CB59424C842AF00C614C1 /* RNPgReactNativeSdk.xcodeproj */;
+			containerPortal = F976A89D252338BA00FCC7C8 /* RNPgReactNativeSdk.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNPgReactNativeSdk;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		F94CB55824C48DB000C614C1 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F94CB55F24C6D98900C614C1 /* CFSDK_ObjC.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
@@ -91,7 +75,7 @@
 		F47E6F96F82053089A55F0EA /* Pods-DemoAppNew-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppNew-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DemoAppNew-tvOS/Pods-DemoAppNew-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		F914E8016D67B32DBE957828 /* libPods-DemoAppNew-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoAppNew-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94CB55D24C6D98900C614C1 /* CFSDK_ObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFSDK_ObjC.framework; path = "../node_modules/react-native-pg-react-native-sdk/ios/CFSDK_ObjC.framework"; sourceTree = "<group>"; };
-		F94CB59424C842AF00C614C1 /* RNPgReactNativeSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNPgReactNativeSdk.xcodeproj; path = "../node_modules/react-native-pg-react-native-sdk/ios/RNPgReactNativeSdk.xcodeproj"; sourceTree = "<group>"; };
+		F976A89D252338BA00FCC7C8 /* RNPgReactNativeSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNPgReactNativeSdk.xcodeproj; path = "../node_modules/react-native-pg-react-native-sdk/ios/RNPgReactNativeSdk.xcodeproj"; sourceTree = "<group>"; };
 		FA3D8349EF1BB939CABE0DE5 /* Pods-DemoAppNew-DemoAppNewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppNew-DemoAppNewTests.release.xcconfig"; path = "Target Support Files/Pods-DemoAppNew-DemoAppNewTests/Pods-DemoAppNew-DemoAppNewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,9 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94CB59B24C842C500C614C1 /* libRNPgReactNativeSdk.a in Frameworks */,
+				F976A8A4252338D400FCC7C8 /* libRNPgReactNativeSdk.a in Frameworks */,
 				D23ED456C5C7595FF8C41504 /* libPods-DemoAppNew.a in Frameworks */,
-				F94CB55E24C6D98900C614C1 /* CFSDK_ObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +179,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				F94CB59424C842AF00C614C1 /* RNPgReactNativeSdk.xcodeproj */,
+				F976A89D252338BA00FCC7C8 /* RNPgReactNativeSdk.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -227,10 +210,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F94CB59524C842AF00C614C1 /* Products */ = {
+		F976A89E252338BA00FCC7C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F94CB59A24C842AF00C614C1 /* libRNPgReactNativeSdk.a */,
+				F976A8A3252338BA00FCC7C8 /* libRNPgReactNativeSdk.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +252,6 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				575CA416F3F206C289394E26 /* [CP] Copy Pods Resources */,
-				F94CB55824C48DB000C614C1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -358,8 +340,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = F94CB59524C842AF00C614C1 /* Products */;
-					ProjectRef = F94CB59424C842AF00C614C1 /* RNPgReactNativeSdk.xcodeproj */;
+					ProductGroup = F976A89E252338BA00FCC7C8 /* Products */;
+					ProjectRef = F976A89D252338BA00FCC7C8 /* RNPgReactNativeSdk.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -373,11 +355,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		F94CB59A24C842AF00C614C1 /* libRNPgReactNativeSdk.a */ = {
+		F976A8A3252338BA00FCC7C8 /* libRNPgReactNativeSdk.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNPgReactNativeSdk.a;
-			remoteRef = F94CB59924C842AF00C614C1 /* PBXContainerItemProxy */;
+			remoteRef = F976A8A2252338BA00FCC7C8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -429,7 +411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
