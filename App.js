@@ -38,8 +38,8 @@ export default class App extends Component {
         headers: {
                  Accept: 'application/json',
                   'Content-Type': 'application/json',
-                 'x-client-id':'1831dac3fd47d13be98b7fd11381',
-                 'x-client-secret': '4c41ca2022d1fa588efa91b73af7bb3489421735'
+                 'x-client-id':'1441962cac3b3f7f4ab018ba791441',
+                 'x-client-secret': '64ee907fca945936bd025c03bc5ffcc45f387afe'
                          }
    };
    var orderIdValue = "Order" + Math.floor(Math.random() * 100000) + 1;
@@ -76,7 +76,7 @@ export default class App extends Component {
               console.log(response);
               }
               else if(mode=='WEB') {
-             var mapNew ={"appId":"1831dac3fd47d13be98b7fd11381",
+             var mapNew ={"appId":"1441962cac3b3f7f4ab018ba791441",
                                    "orderId":orderIdValue,
                                    "orderAmount":"1",
                                    "orderNote":"Cashfree Test",
@@ -85,7 +85,7 @@ export default class App extends Component {
                                     "customerEmail":"arjun@cashfree.com",
                                      "notifyUrl":"https://www.yourendpoint.com/",
                                       "orderCurrency":"INR",
-                            
+                              
                                       "tokenData":response.data.cftoken
                                }
 
