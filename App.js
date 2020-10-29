@@ -38,8 +38,8 @@ export default class App extends Component {
         headers: {
                  Accept: 'application/json',
                   'Content-Type': 'application/json',
-                 'x-client-id':'1441962cac3b3f7f4ab018ba791441',
-                 'x-client-secret': '64ee907fca945936bd025c03bc5ffcc45f387afe'
+                 'x-client-id':'your client id',
+                 'x-client-secret': 'your client secret'
                          }
    };
    var orderIdValue = "Order" + Math.floor(Math.random() * 100000) + 1;
