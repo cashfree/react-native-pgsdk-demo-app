@@ -296,7 +296,7 @@ PODS:
     - React-Core (= 0.63.1)
     - React-cxxreact (= 0.63.1)
     - React-jsi (= 0.63.1)
-  - RNPgReactNativeSdk (1.0.0):
+  - RNPgReactNativeSdk (2.0.0-rc.2):
     - React
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -349,7 +349,7 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - RNPgReactNativeSdk (from `../node_modules/react-native-pg-react-native-sdk/ios`)
+  - RNPgReactNativeSdk (from `../node_modules/react-native-pg-react-native-sdk`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -419,7 +419,7 @@ EXTERNAL SOURCES:
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
   RNPgReactNativeSdk:
-    :path: "../node_modules/react-native-pg-react-native-sdk/ios"
+    :path: "../node_modules/react-native-pg-react-native-sdk"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -460,10 +460,10 @@ SPEC CHECKSUMS:
   React-RCTText: 4f95d322b7e6da72817284abf8a2cdcec18b9cd8
   React-RCTVibration: f3a9123c244f35c40d3c9f3ec3f0b9e5717bb292
   ReactCommon: 2905859f84a94a381bb0d8dd3921ccb1a0047cb8
-  RNPgReactNativeSdk: cda915faa6856a13f72af13c0eab83c5b8d08a9a
+  RNPgReactNativeSdk: b26726c0c77e6dcf87e567aaa930c95725d9406e
   Yoga: d5bd05a2b6b94c52323745c2c2b64557c8c66f64
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
 PODFILE CHECKSUM: fd80ea3919cdcfc453a9fab973d3f820258fd0d4
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
