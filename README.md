@@ -1,4 +1,4 @@
-# React Native SDK DEMO APP
+# React Native Sdk Demo App
 
 This is a sample react native application demonstrating and utilizing Cashfree [react-native-pg-react-native-sdk](https://www.npmjs.com/package/react-native-pg-react-native-sdk).
 

@@ -4,7 +4,7 @@ import RNPgReactNativeSDK from 'react-native-pg-react-native-sdk'
 
 const WEB = "WEB";
 const UPI = "UPI";
-const BASE_RESPONSE_TEXT = "Response or errors will show here.";
+const BASE_RESPONSE_TEXT = "Response or error will show here.";
 
 export default class App extends Component {
 
